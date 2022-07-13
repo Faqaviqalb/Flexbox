@@ -1,0 +1,88 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.container{
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin: 10px 5px;
+    z-index: 8;
+    background-color: black;
+}
+
+.left{
+    margin-left: 10px;
+    align-items: center;
+    float: left;
+}
+#first{
+    height: 50px;
+}
+.right{
+    float: right;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+.navs{
+    color: #577874;
+    padding: 10px;
+}
+.hero{
+    display: inline-flex;
+    position:relative;
+}
+.heroimg{
+    margin-top:69px;
+    margin-right: 60px;
+    margin-left: 60px;
+    height: 700px;
+    width: 1200px;
+    opacity: 0.5;
+
+}
+#inside{
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #324543;
+}
+.tea{
+    text-align: center;
+}
+.tea h2{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 50px;
+    color: #324543;
+}
+.tea h4{
+    color: #324543;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+
+.column{
+    float: left;
+    height: 200px;
+    width: 300px;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    margin-right: 2rem;
+    gap: 2rem;
+
+}
+.txt{
+    text-align: center;
+    margin-top: .5rem;
+}
